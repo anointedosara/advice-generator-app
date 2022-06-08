@@ -11,5 +11,7 @@ const advice = async() => {
     }
 }
 
+advice()
+
 const button = document.querySelector(".div")
 button.addEventListener("click", advice)
